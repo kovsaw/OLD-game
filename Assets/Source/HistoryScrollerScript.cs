@@ -12,7 +12,7 @@ public class HistoryScrollerScript : MonoBehaviour {
         position += vector3Up * scrollSpeed * Time.deltaTime;
         transform.position = position;
 
-        if (position.y >= 650) {
+        if (position.y >= 450) {
             SceneManager.LoadSceneAsync("MainGame", LoadSceneMode.Single);
         }        
     }

@@ -4,7 +4,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class ClickHandlerScript : MonoBehaviour {
-	public void onClick() {
+	public void StartGameButtonClick() {
         SceneManager.LoadSceneAsync("HistoryScene", LoadSceneMode.Single);
 	}
+
+    public void SkipIntroButtonClick()
+    {
+        SceneManager.LoadSceneAsync("MainGame", LoadSceneMode.Single);
+    }
 }
