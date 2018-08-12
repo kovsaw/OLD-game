@@ -203,7 +203,7 @@ GameObject:
   - component: {fileID: 103266751}
   - component: {fileID: 103266752}
   m_Layer: 5
-  m_Name: Button
+  m_Name: KillPButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -364,7 +364,7 @@ GameObject:
   - component: {fileID: 152295920}
   - component: {fileID: 152295923}
   m_Layer: 0
-  m_Name: Left Turtle
+  m_Name: LeftTurtle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -476,7 +476,7 @@ GameObject:
   - component: {fileID: 207964469}
   - component: {fileID: 207964470}
   m_Layer: 0
-  m_Name: Main Building
+  m_Name: MainBuilding
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -577,7 +577,7 @@ GameObject:
   - component: {fileID: 411212195}
   - component: {fileID: 411212196}
   m_Layer: 0
-  m_Name: 1
+  m_Name: Forest-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -727,7 +727,7 @@ GameObject:
   - component: {fileID: 559905398}
   - component: {fileID: 559905399}
   m_Layer: 0
-  m_Name: 1 (7)
+  m_Name: Forest-8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -805,7 +805,7 @@ GameObject:
   - component: {fileID: 686706157}
   - component: {fileID: 686706158}
   m_Layer: 0
-  m_Name: Centre Turtles
+  m_Name: CentreTurtle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -922,7 +922,7 @@ GameObject:
   - component: {fileID: 697950007}
   - component: {fileID: 697950008}
   m_Layer: 0
-  m_Name: CentrB
+  m_Name: CentrBuilding
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1036,7 +1036,7 @@ GameObject:
   - component: {fileID: 754259993}
   - component: {fileID: 754259994}
   m_Layer: 0
-  m_Name: RightB
+  m_Name: RightBuilding
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1147,7 +1147,7 @@ GameObject:
   - component: {fileID: 807210888}
   - component: {fileID: 807210889}
   m_Layer: 0
-  m_Name: 1 (3)
+  m_Name: Forest-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1222,7 +1222,7 @@ GameObject:
   - component: {fileID: 817189890}
   - component: {fileID: 817189891}
   m_Layer: 0
-  m_Name: 1 (1)
+  m_Name: Forest-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1400,7 +1400,7 @@ GameObject:
   - component: {fileID: 1117609025}
   - component: {fileID: 1117609028}
   m_Layer: 0
-  m_Name: Right Turtle
+  m_Name: RightTurtle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1510,7 +1510,7 @@ GameObject:
   - component: {fileID: 1132927923}
   - component: {fileID: 1132927924}
   m_Layer: 0
-  m_Name: Forests
+  m_Name: MainForest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1593,7 +1593,7 @@ GameObject:
   - component: {fileID: 1201554893}
   - component: {fileID: 1201554894}
   m_Layer: 0
-  m_Name: 1 (5)
+  m_Name: Forest-6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1669,7 +1669,7 @@ GameObject:
   - component: {fileID: 1256141992}
   - component: {fileID: 1256141991}
   m_Layer: 5
-  m_Name: Text
+  m_Name: KPBText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1743,7 +1743,7 @@ GameObject:
   - component: {fileID: 1338441163}
   - component: {fileID: 1338441164}
   m_Layer: 0
-  m_Name: 1 (2)
+  m_Name: Forest-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1913,7 +1913,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1418120663}
   m_Layer: 0
-  m_Name: Turtles
+  m_Name: MainTertle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2110,7 +2110,7 @@ GameObject:
   - component: {fileID: 1495520894}
   - component: {fileID: 1495520892}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: SupportSphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2218,7 +2218,7 @@ GameObject:
   - component: {fileID: 1503663985}
   - component: {fileID: 1503663991}
   m_Layer: 0
-  m_Name: Plane (1)
+  m_Name: CheckGOPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2340,7 +2340,7 @@ GameObject:
   - component: {fileID: 1580634318}
   - component: {fileID: 1580634319}
   m_Layer: 0
-  m_Name: 1 (6)
+  m_Name: Forest-7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2417,7 +2417,7 @@ GameObject:
   - component: {fileID: 1598110941}
   - component: {fileID: 1598110944}
   m_Layer: 0
-  m_Name: Directional Light
+  m_Name: MainLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2570,7 +2570,7 @@ GameObject:
   - component: {fileID: 1796252306}
   - component: {fileID: 1796252309}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: MainCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2657,7 +2657,7 @@ GameObject:
   - component: {fileID: 1841337955}
   - component: {fileID: 1841337956}
   m_Layer: 0
-  m_Name: 1 (4)
+  m_Name: Forest-5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2885,7 +2885,7 @@ GameObject:
   - component: {fileID: 2027834629}
   - component: {fileID: 2027834630}
   m_Layer: 0
-  m_Name: LeftB
+  m_Name: LeftBuilding
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

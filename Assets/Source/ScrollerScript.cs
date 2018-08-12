@@ -11,7 +11,7 @@ public class ScrollerScript : MonoBehaviour {
     }
 
     public void Update () {
-        float scrollSpeed = 20; // change this parameter to increase or decrease speed of text scrolling 
+        float scrollSpeed = 12; // change this parameter to increase or decrease speed of text scrolling 
         Vector3 position = transform.position;        
         Vector3 vector3Up = transform.TransformDirection(0, 1, 0);
         
