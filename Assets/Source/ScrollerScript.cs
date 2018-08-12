@@ -3,7 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class HistoryScrollerScript : MonoBehaviour {
+public class ScrollerScript : MonoBehaviour {
+    float startYPosition;
+
+    public void Start() {
+        startYPosition = transform.position.y;
+    }
+
     public void Update () {
         float scrollSpeed = 20; // change this parameter to increase or decrease speed of text scrolling 
         Vector3 position = transform.position;        
@@ -12,7 +18,7 @@ public class HistoryScrollerScript : MonoBehaviour {
         position += vector3Up * scrollSpeed * Time.deltaTime;
         transform.position = position;
 
-        if (position.y >= 450) {
+        if (position.y >= -startYPosition) {
             SceneManager.LoadSceneAsync("MainGame", LoadSceneMode.Single);
         }        
     }

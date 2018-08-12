@@ -14,4 +14,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainGame.unity
     guid: d5069b59171eff548848aa6ec47205dc
+  - enabled: 1
+    path: Assets/Scenes/EndMenuScene.unity
+    guid: dc1ba120a870359488f9c7b1cffad50d
+  - enabled: 1
+    path: Assets/Scenes/AllPeopleDiedLoseScene.unity
+    guid: 631f58283a1365a47bc496afb04bf9b8
+  - enabled: 1
+    path: Assets/Scenes/EarthDiedLoseScene.unity
+    guid: 018d84650d5051c4d8c14569a322c0a1
+  - enabled: 1
+    path: Assets/Scenes/TooManyPeopleLoseScene.unity
+    guid: 9fa456e12547b684a8342d03e86c03b8
+  - enabled: 1
+    path: Assets/Scenes/GoodbyeScene.unity
+    guid: b9f1e80983a15d74ba59141cc5b7def6
+  - enabled: 1
+    path: Assets/Scenes/NotEnoughActivityLoseScene.unity
+    guid: f82624bcd1364e14fb86ef5e8a301f61
+  - enabled: 1
+    path: Assets/Scenes/WinEndScene.unity
+    guid: 1cf6f8777d921484fb604031a3c25a9a
   m_configObjects: {}
