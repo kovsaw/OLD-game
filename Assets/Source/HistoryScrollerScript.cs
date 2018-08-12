@@ -1,19 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HistoryScrollerScript : MonoBehaviour {
     public void Update () {
-        float scrollSpeed = 20;
+        float scrollSpeed = 20; // change this parameter to increase or decrease speed of text scrolling 
+        Vector3 position = transform.position;        
+        Vector3 vector3Up = transform.TransformDirection(0, 1, 0);
+        
+        position += vector3Up * scrollSpeed * Time.deltaTime;
+        transform.position = position;
 
-        // get current position of parent GameObject
-        Vector3 position = transform.position;
-
-        // get vector pointing into the distance
-        Vector3 localVectorUp = transform.TransformDirection(0, 1, 0);
-
-        // move the text object into the distance to give our 3D scrolling effect
-        position += localVectorUp * scrollSpeed * Time.deltaTime;
-        transform.position = position;    
-	}
+        if (position.y >= 650) {
+            SceneManager.LoadSceneAsync("MainGame", LoadSceneMode.Single);
+        }        
+    }
 }
