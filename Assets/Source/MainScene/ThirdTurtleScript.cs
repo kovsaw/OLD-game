@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TherdTurtleScript : MonoBehaviour
+public class ThirdTurtleScript : MonoBehaviour
 {
 
     int count = 0;

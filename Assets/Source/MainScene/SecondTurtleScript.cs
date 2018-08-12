@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 
-public class SecondTurtles : MonoBehaviour {
+public class SecondTurtleScript : MonoBehaviour {
 
     int count = 0;
     int maxCount = 2;
     public bool lifeTurtles = true;
-    public GameObject therdTurtles;
-    public GameObject firstTurtles;
-    public GameObject build;
+    public GameObject thirdTurtle;
+    public GameObject firstTurtle;
+    public GameObject building;
 
     public GameObject panel;
 
@@ -24,9 +24,9 @@ public class SecondTurtles : MonoBehaviour {
     {
         if (count >= maxCount)
         {
-            Destroy(build);
-            Destroy(firstTurtles);
-            Destroy(therdTurtles);
+            Destroy(building);
+            Destroy(firstTurtle);
+            Destroy(thirdTurtle);
             lifeTurtles = false;
             Destroy(gameObject);
             Destroy(this);

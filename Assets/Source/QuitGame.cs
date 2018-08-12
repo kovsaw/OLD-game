@@ -14,7 +14,7 @@ public class QuitGame : MonoBehaviour {
 
     public void Update() {
         TimeSpan span = stopwatch.Elapsed;
-        if (span.Seconds == 1.5) {
+        if (span.Seconds == 2) {
             Application.Quit();
         }
     }
