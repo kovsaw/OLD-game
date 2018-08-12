@@ -1,0 +1,108 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class TimerScript : MonoBehaviour {
+    int seconds = 0;
+    int mins = 0;
+    int hours = 0;
+    //public static int countEvents = 10;
+    //public int range = Random.Range(0, countEvents);
+
+    public float timer;
+
+    //int Event() {
+       // range = Random.Range(0, countEvents);
+       // return range;
+    //}
+
+    void Update()
+    {
+        if (timer < 99.0f)
+        {
+            timer += Time.deltaTime;
+        }
+        if (timer >= 1.0)
+        {
+            seconds += 1;
+            timer = 0;
+        }
+        if (seconds >= 60)
+        {
+            mins += 1;
+            seconds = 0;
+            /*
+           if (Event() == 0) {
+                 Debug.Log("0 event!");
+             }
+             else if (Event() == 1)
+             {
+                 Debug.Log("1 event!");
+             }
+             else if (Event() == 2)
+             {
+                 Debug.Log("2 event!");
+             }
+             else if (Event() == 3)
+             {
+                 Debug.Log("3 event!");
+             }
+             else if (Event() == 4)
+             {
+                 Debug.Log("4 event!");
+             }
+             else if (Event() == 5)
+             {
+                 Debug.Log("5 event!");
+             }
+             else if (Event() == 6)
+             {
+                 Debug.Log("6 event!");
+             }
+             else if (Event() == 7)
+             {
+                 Debug.Log("7 event!");
+             }
+             else if (Event() == 8)
+             {
+                 Debug.Log("8 event!");
+             }
+             else if (Event() == 9)
+             {
+                 Debug.Log("9 event!");
+             }
+             else if (Event() == 10)
+             {
+                 Debug.Log("10 event!");
+             }   
+          */
+        }
+        if (mins >= 60)
+        {
+            hours += 1;
+            mins = 0;
+        }
+    }
+
+    private GUIStyle guiStyle = new GUIStyle(); //create a new variable
+
+    void OnGUI()
+    {
+        guiStyle.normal.textColor = Color.yellow;
+        guiStyle.fontSize = 20; //change the font size
+
+        string str1 = seconds.ToString();
+        string str2 = mins.ToString();
+        string str3 = hours.ToString();
+
+        GUI.Label(new Rect(10, 10, 100, 20), "Time: ", guiStyle);
+
+        GUI.Label(new Rect(10, 30, 100, 20), str3);
+        GUI.Label(new Rect(20, 30, 100, 20), ":");
+        GUI.Label(new Rect(30, 30, 100, 20), str2);
+        GUI.Label(new Rect(40, 30, 100, 20), ":");
+        GUI.Label(new Rect(50, 30, 100, 20), str1);
+
+    }
+
+}
