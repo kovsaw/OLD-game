@@ -12,7 +12,6 @@ public class UIScript : MonoBehaviour {
     public Int64 count = 7000000000;
     public GameObject panel;
     System.Diagnostics.Stopwatch stopwatch = new System.Diagnostics.Stopwatch();
-    System.Diagnostics.Stopwatch stopwatchForCountingTimeT = new System.Diagnostics.Stopwatch();
 
     public void Start()
     {

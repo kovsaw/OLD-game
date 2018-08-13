@@ -9,10 +9,8 @@ public class LightScript : MonoBehaviour {
     private GameObject moon;
     private Light myLight;
     bool day = true;
-    System.Diagnostics.Stopwatch sw = new System.Diagnostics.Stopwatch();
 
     void Start () {
-        sw.Start();
         myLight = GetComponent<Light>();
         sun = Instantiate (objects[1], objects[1].transform.position, Quaternion.identity) as GameObject;
         Invoke("DayNight", 5f);
@@ -38,11 +36,6 @@ public class LightScript : MonoBehaviour {
     
 	void Update () {
 		if (Input.GetKeyUp(KeyCode.Space))
-        {
-            DayNight();
-        }
-
-        if (sw.Elapsed.Seconds % 10 == 0)
         {
             DayNight();
         }

@@ -2425,7 +2425,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42aefc6dfebb1214485636e5806ed0bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects: []
+  objects:
+  - {fileID: 1846340661527718, guid: 0216837a0f8916a41abf2bd4d98c0742, type: 2}
+  - {fileID: 1302280093828078, guid: 74d6388379d4497409688b69c0685e28, type: 2}
 --- !u!1 &1740356947
 GameObject:
   m_ObjectHideFlags: 0
@@ -2577,7 +2579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c2b679873a6a7846ae43083dc8a9a99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 1996107330}
   xSpeed: 12
   ySpeed: 12
   scrollSpeed: 10
@@ -2585,7 +2587,7 @@ MonoBehaviour:
   zoomMax: 20
   distance: 0
   position: {x: 0, y: 0, z: 0}
-  isActivated: 0
+  isActivated: 1
 --- !u!1 &1841337954
 GameObject:
   m_ObjectHideFlags: 0
